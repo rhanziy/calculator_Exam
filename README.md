@@ -1,5 +1,7 @@
 # calculator_Exam 
 
+user-select: none; 더블클릭이나 드래그에 반응 X
+
 btn.onclick = function(){
       body.classList.toggle('light');
   } 
