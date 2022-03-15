@@ -1,13 +1,14 @@
 # calculator_Exam 
 
 > onyl css만 이용한 계산기 예제. 유튜브보고 신기해서 따라해봤다.
-      
-user-select: none; 더블클릭이나 드래그에 반응 X
 
+
+
+------------
+user-select: none; 더블클릭이나 드래그에 반응 X
 
 <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)"><i>=</i></span>
 eval함수는 사용을 지양하는걸 권고한다. 
-
 eval 함수는 expression 인자에 string 값을 넣으면 해당 값을 그대로 실행하여 결과를 출력해 준다.
 > string 타입인데도 불구하고, eval 로 실행하면 그대로 연산 값을 얻을 수 있다는 편리함이 있다. 단순 연산뿐 아니라 내장함수, 객체도 실행가능하다.
 
