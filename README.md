@@ -1,11 +1,9 @@
 # calculator_Exam 
 
+> onyl css만 이용한 계산기 예제. 유튜브보고 신기해서 따라해봤다.
+      
 user-select: none; 더블클릭이나 드래그에 반응 X
 
-btn.onclick = function(){
-      body.classList.toggle('light');
-  } 
-를 이용해 light class를 버튼토글로 추가하고, body.light css로 흰색계산기 구현
 
 <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)"><i>=</i></span>
 eval함수는 사용을 지양하는걸 권고한다. 
