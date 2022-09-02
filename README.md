@@ -1,10 +1,9 @@
 # calculator_Exam 
 
-> only css만 이용한 계산기 예제. 유튜브보고 신기해서 따라해봤다.
++ #### only css만 이용한 계산기 예제. 유튜브보고 신기해서 따라해봤다.
 
 
-
-------------
+<br>
 user-select: none; 더블클릭이나 드래그에 반응 X
 
 <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)"><i>=</i></span>
